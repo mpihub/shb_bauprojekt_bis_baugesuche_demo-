@@ -1,6 +1,79 @@
 {
-  "changes": [],
+  "changes": [
+    {
+      "source_id": "emmen-revision",
+      "municipality": "Emmen",
+      "detected_at": "2026-10-11T01:32:16+00:00",
+      "type": "check_failed",
+      "summary": "Quelle nicht zuverlässig prüfbar: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+      "source_url": "https://mitwirken.emmen.ch/projekte/",
+      "requires_manual_review": true
+    },
+    {
+      "source_id": "emmen-nutzung",
+      "municipality": "Emmen",
+      "detected_at": "2026-10-11T01:32:10+00:00",
+      "type": "check_failed",
+      "summary": "Quelle nicht zuverlässig prüfbar: HTTP 404",
+      "source_url": "https://www.emmen.ch/raumundnutzungsplanung/2308",
+      "requires_manual_review": true
+    },
+    {
+      "source_id": "lu-kenv",
+      "municipality": "Kanton Luzern",
+      "detected_at": "2026-10-11T01:31:50+00:00",
+      "type": "check_failed",
+      "summary": "Quelle nicht zuverlässig prüfbar: Zu wenig auswertbarer HTML-Text; Seite benötigt Spezialprüfung",
+      "source_url": "https://srl.lu.ch/app/de/texts_of_law/774",
+      "requires_manual_review": true
+    },
+    {
+      "source_id": "lu-keng",
+      "municipality": "Kanton Luzern",
+      "detected_at": "2026-10-11T01:31:49+00:00",
+      "type": "check_failed",
+      "summary": "Quelle nicht zuverlässig prüfbar: Zu wenig auswertbarer HTML-Text; Seite benötigt Spezialprüfung",
+      "source_url": "https://srl.lu.ch/app/de/texts_of_law/773",
+      "requires_manual_review": true
+    },
+    {
+      "source_id": "lu-ivhb-737",
+      "municipality": "Kanton Luzern",
+      "detected_at": "2026-10-11T01:31:48+00:00",
+      "type": "check_failed",
+      "summary": "Quelle nicht zuverlässig prüfbar: Zu wenig auswertbarer HTML-Text; Seite benötigt Spezialprüfung",
+      "source_url": "https://srl.lu.ch/app/de/texts_of_law/737",
+      "requires_manual_review": true
+    },
+    {
+      "source_id": "lu-ivhb-736a",
+      "municipality": "Kanton Luzern",
+      "detected_at": "2026-10-11T01:31:47+00:00",
+      "type": "check_failed",
+      "summary": "Quelle nicht zuverlässig prüfbar: Zu wenig auswertbarer HTML-Text; Seite benötigt Spezialprüfung",
+      "source_url": "https://srl.lu.ch/app/de/texts_of_law/736a",
+      "requires_manual_review": true
+    },
+    {
+      "source_id": "lu-pbv",
+      "municipality": "Kanton Luzern",
+      "detected_at": "2026-10-11T01:31:47+00:00",
+      "type": "check_failed",
+      "summary": "Quelle nicht zuverlässig prüfbar: Zu wenig auswertbarer HTML-Text; Seite benötigt Spezialprüfung",
+      "source_url": "https://srl.lu.ch/app/de/texts_of_law/736",
+      "requires_manual_review": true
+    },
+    {
+      "source_id": "lu-pbg",
+      "municipality": "Kanton Luzern",
+      "detected_at": "2026-10-11T01:31:46+00:00",
+      "type": "check_failed",
+      "summary": "Quelle nicht zuverlässig prüfbar: Zu wenig auswertbarer HTML-Text; Seite benötigt Spezialprüfung",
+      "source_url": "https://srl.lu.ch/app/de/texts_of_law/735",
+      "requires_manual_review": true
+    }
+  ],
   "meta": {
-    "last_updated_at": null
+    "last_updated_at": "2026-10-11T01:32:16+00:00"
   }
 }

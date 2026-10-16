@@ -3,6 +3,17 @@
     {
       "source_id": "emmen-bau",
       "municipality": "Emmen",
+      "detected_at": "2026-10-16T05:38:52+00:00",
+      "type": "content_changed",
+      "summary": "Seiten- oder Dokumentinhalt verändert; fachlich prüfen.",
+      "source_url": "https://www.emmen.ch/baugesuche",
+      "added_pdf_links": [],
+      "removed_pdf_links": [],
+      "requires_manual_review": true
+    },
+    {
+      "source_id": "emmen-bau",
+      "municipality": "Emmen",
       "detected_at": "2026-10-15T05:39:08+00:00",
       "type": "content_changed",
       "summary": "Seiten- oder Dokumentinhalt verändert; fachlich prüfen.",
@@ -161,6 +172,6 @@
     }
   ],
   "meta": {
-    "last_updated_at": "2026-10-15T05:39:10+00:00"
+    "last_updated_at": "2026-10-16T05:39:02+00:00"
   }
 }

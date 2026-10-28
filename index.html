@@ -55,11 +55,36 @@ footer{margin:45px 0 0;border-top:1px solid var(--line);padding:26px 0 36px;colo
 #quellenpruefung{scroll-margin-top:105px}
 
 @media(max-width:760px){.pilot-monitor{padding:16px}.pilot-kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.pilot-monitor-head{display:block}.pilot-pill{margin-top:10px}}
+
+/* V3 – natürliche Suche. Zurückhaltendes Layout, passt zur bestehenden SHB-Seite. */
+.qa-section{padding:6px 0 28px}.qa-panel{background:var(--white);border:1px solid #bac9c4;border-radius:14px;padding:23px 25px;box-shadow:0 6px 20px #26362f08}
+.qa-eyebrow{font-size:11px;letter-spacing:.10em;text-transform:uppercase;color:#536e63;font-weight:800;margin-bottom:5px}.qa-head{display:flex;justify-content:space-between;gap:18px;align-items:start}.qa-head h2{font-size:23px;letter-spacing:-.035em;margin:0 0 4px}.qa-head p{font-size:13px;color:var(--secondary);margin:0 0 17px;max-width:760px}.qa-mode{font-size:11px;border:1px solid #d7dfda;border-radius:7px;padding:7px 9px;color:#466459;background:#eff5f0;white-space:nowrap}
+.qa-form{display:flex;gap:9px}.qa-form input{flex:1;min-width:0;border:1px solid #aebdb7;background:#fff;border-radius:8px;padding:14px 15px;font:inherit;font-size:15px}.qa-form button{background:#344d46;color:#fff;border:0;border-radius:8px;font:inherit;font-weight:750;padding:12px 19px;cursor:pointer}.qa-form button:disabled{opacity:.55}.qa-chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}.qa-chips button{background:#f3f5f2;border:1px solid #dfe5df;border-radius:25px;padding:7px 10px;font-size:11px;color:#46574d;cursor:pointer}.qa-chips button:hover{background:#e7efe9}
+.qa-result{margin-top:18px;border-top:1px solid var(--line);padding-top:17px}.qa-status{font-size:11px;letter-spacing:.03em;color:#506859;font-weight:750;margin:0 0 7px}.qa-answer{font-size:16px;line-height:1.6;margin:8px 0 8px;max-width:900px}.qa-fineprint{font-size:12px;color:var(--secondary);margin:9px 0 0}.qa-source-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:15px}.qa-source{border:1px solid var(--line);background:#fafbf9;border-radius:8px;padding:11px 13px;text-decoration:none;display:block}.qa-source strong{font-size:12px;display:block}.qa-source small{font-size:11px;color:var(--secondary);display:block;margin-top:3px}.qa-source:hover{border-color:#8aa49a}.qa-result[hidden]{display:none!important}.qa-footnote{margin:10px 0 0;color:var(--secondary);font-size:11px}
+@media(max-width:750px){.qa-panel{padding:17px}.qa-head{display:block}.qa-mode{display:inline-block;margin-bottom:12px}.qa-form{flex-direction:column}.qa-form button{width:100%}.qa-source-list{grid-template-columns:1fr}}
 </style></head><body>
-<header class="topbar"><div class="container topbar-inner"><div class="branding"><div class="logo" aria-hidden="true">LU</div><div><div class="brand-title">Bau- und Planungsrecht · Monitoring</div><div class="brand-sub">SHB Architekten</div></div></div><div class="top-right"><nav class="top-nav" aria-label="Hauptnavigation"><a href="#hinweise">Fachmeldungen</a><a href="#gemeinden">Gemeinden</a><a href="#ivhb">IVHB</a><a href="#hindernisfrei">Hindernisfrei</a><a href="#kanton">Kanton</a><a href="#quellen">Quellen</a><a href="#quellenpruefung">Prüfprotokoll</a></nav><span class="demo-pill">V1.2 · TECHNISCHER PILOT</span></div></div></header>
-<main><div class="container"><section class="hero"><div class="hero-grid"><div><p class="eyebrow">Kanton Luzern · Planungsrecht und Baugesuche</p><h1>Baugesetz-Updates<br>Kanton Luzern</h1><p class="lead">Offizielle Rechtsgrundlagen, Baugesuchslinks und ausgewählte Planungshinweise – mit Fokus auf Horw, Luzern, Kriens und Emmen.</p></div><aside class="hero-side"><div><small>Version</small><strong>Version 1.2 · Prüfprotokoll unten</strong></div><div><small>Quellenstatus</small><strong>Technischer Pilot aktiv · Prüfergebnisse unten</strong></div><div><small>Datenbasis</small><strong>Redaktionelle Inhalte + separates Quellenmonitoring</strong></div></aside></div><div class="info-strip"><span><b>4</b> Fokus-Gemeinden</span><span><b>46</b> offizielle Quellenverknüpfungen</span><span><b>12</b> dokumentierte Hinweise</span><span><b>Wichtig:</b> Meldedatum ≠ Inkrafttreten ≠ Prüfdatum</span></div></section>
+<header class="topbar"><div class="container topbar-inner"><div class="branding"><div class="logo" aria-hidden="true">LU</div><div><div class="brand-title">Bau- und Planungsrecht · Monitoring</div><div class="brand-sub">SHB Architekten</div></div></div><div class="top-right"><nav class="top-nav" aria-label="Hauptnavigation"><a href="#baurecht-fragen">Baurecht fragen</a><a href="#hinweise">Fachmeldungen</a><a href="#gemeinden">Gemeinden</a><a href="#ivhb">IVHB</a><a href="#hindernisfrei">Hindernisfrei</a><a href="#kanton">Kanton</a><a href="#quellen">Quellen</a><a href="#quellenpruefung">Prüfprotokoll</a></nav><span class="demo-pill">V3 · SUCH-PILOT</span></div></div></header>
+<main><div class="container"><section class="hero"><div class="hero-grid"><div><p class="eyebrow">Kanton Luzern · Planungsrecht und Baugesuche</p><h1>Baugesetz-Updates<br>Kanton Luzern</h1><p class="lead">Offizielle Rechtsgrundlagen, Baugesuchslinks und ausgewählte Planungshinweise – mit Fokus auf Horw, Luzern, Kriens und Emmen.</p></div><aside class="hero-side"><div><small>Version</small><strong>Version 3 · Baurechts-Suche</strong></div><div><small>Quellenstatus</small><strong>Technischer Pilot aktiv · Prüfergebnisse unten</strong></div><div><small>Datenbasis</small><strong>Redaktionelle Inhalte + separates Quellenmonitoring</strong></div></aside></div><div class="info-strip"><span><b>4</b> Fokus-Gemeinden</span><span><b>46</b> offizielle Quellenverknüpfungen</span><span><b>12</b> dokumentierte Hinweise</span><span><b>Wichtig:</b> Meldedatum ≠ Inkrafttreten ≠ Prüfdatum</span></div></section>
 
 
+
+
+<section class="qa-section" id="baurecht-fragen" aria-labelledby="qa-title">
+  <div class="qa-panel">
+    <div class="qa-head"><div><div class="qa-eyebrow">SHB Wissenssuche · Version 3</div><h2 id="qa-title">Baurecht fragen</h2><p>Stelle eine Frage in normaler Sprache. Die Testsuche zeigt geprüfte Kurzantworten, sofern hinterlegt, und sonst passende offizielle Fundstellen. Keine erfundenen Rechtsauskünfte.</p></div><span class="qa-mode" id="qa-mode">Quellenbasierter Testmodus</span></div>
+    <form id="qa-form" class="qa-form" autocomplete="off"><label class="visually-hidden" for="qa-input">Baurechtsfrage</label><input id="qa-input" name="frage" maxlength="350" placeholder="z. B. Fassadenhöhe W2b Horw" required><button id="qa-submit" type="submit">Frage prüfen →</button></form>
+    <div class="qa-chips" aria-label="Beispielfragen">
+      <button type="button" data-example="Fassadenhöhe W2b Horw">Fassadenhöhe W2b Horw</button>
+      <button type="button" data-example="Braucht ein MFH mit 7 Wohnungen einen Lift?">Lift bei 7 Wohnungen?</button>
+      <button type="button" data-example="Welche Attikaregeln gelten in Kriens?">Attika Kriens</button>
+      <button type="button" data-example="Welche Solarpflicht gilt für Neubauten in Luzern?">Solarpflicht Luzern</button>
+      <button type="button" data-example="Ist die IVHB in Emmen eingeführt?">IVHB Emmen</button>
+      <button type="button" data-example="Welche Unterlagen braucht ein Baugesuch in Horw?">Baugesuch Horw</button>
+    </div>
+    <div class="qa-result" id="qa-result" hidden aria-live="polite"><p class="qa-status" id="qa-status"></p><div class="qa-answer" id="qa-answer"></div><div id="qa-sources" class="qa-source-list"></div><p class="qa-fineprint" id="qa-detail"></p><button type="button" class="text-button" id="qa-ai-button" hidden>Mit KI auswerten</button><p id="qa-ai-response" class="qa-fineprint" aria-live="polite"></p></div>
+    <p class="qa-footnote">Pilot mit kuratiertem Quellenindex. Eine KI-Auslegung und ein Live-Rechtsstandscheck sind noch nicht aktiviert. Amtliche Originalquellen bleiben massgebend.</p>
+  </div>
+</section>
 
 <section class="block" id="hinweise"><div class="section-header"><div><h2>Amtliche Hinweise & Fachnews</h2><p>Redaktionell erfasste Publikationen – keine automatisch erkannten Live-Änderungen.</p></div><div class="segmented" role="group" aria-label="Nachrichten filtern"><button type="button" data-topic-button="Alle" aria-pressed="true">Alle</button><button type="button" data-topic-button="Planung" aria-pressed="false">Ortsplanung</button><button type="button" data-topic-button="Baugesuch" aria-pressed="false">Baugesuch</button><button type="button" data-topic-button="Energie" aria-pressed="false">Energie / Solar</button></div></div>
 <div class="updates" id="updates"><article class="update" data-news data-topic="Planung" >
@@ -581,5 +606,93 @@ document.addEventListener('DOMContentLoaded', async function () {
     tbody.replaceChildren(); const row=tbody.insertRow(); const cell=row.insertCell(); cell.colSpan=4; cell.textContent='Statische Fachinformationen und Links weiter unten bleiben nutzbar.';
   }
 });
+</script>
+
+<script>
+window.SHB_AI_ENDPOINT = ""; // Nach Einrichtung eines GESCHÜTZTEN Backends: https://.../ask
+</script>
+<script>
+/* SHB V3: lokale, nachvollziehbare Quellenfindung. Keine KI-Auskunft ohne Server-Anbindung. */
+(() => {
+  'use strict';
+  const INDEX = [{"id":"horw-w2b","municipality":"Horw","topic":"Fassadenhöhe W2b","keywords":["fassadenhöhe","fassadenhoehe","w2b","w2b horw","gesamthöhe","traufhöhe","höhe","flachdach","pultdach","wohnen"],"title":"BZR Horw · Wohnzone W2b · Art. 4a Abs. 1","verified_answer":"Für die Wohnzone W2b ist bei Flach- oder Pultdach eine maximale Fassadenhöhe von 7.00 m ausgewiesen. Für Bauten mit Schrägdach nennt die Tabelle eine maximale Traufhöhe von 7.00 m und eine Gesamthöhe von 8.50 m. Die konkrete Zulässigkeit hängt unter anderem von allfälligen Sondernutzungsplänen und dem anwendbaren Verfahren ab.","legal_basis":"BZR Horw, Art. 4a Abs. 1, Tabelle auf Seite 6","source_status":"Amtlicher Dokumentstand: 08.04.2025; im Pilot redaktionell anhand des PDF geprüft","checked_on":"2026-10-20","url":"https://www.horw.ch/_doc/6040330","excerpt":"Wohnzone W2b: Fassadenhöhe bei Flach-/Pultdach 7.00 m; Traufhöhe bei Schrägdach 7.00 m; Gesamthöhe 8.50 m. Ausnahmen und weiteres in Art. 4a."},{"id":"horw-transition","municipality":"Horw","topic":"Übergang und Ausnahmen","keywords":["horw","übergangsbestimmung","uebergang","ivhb","ausnahme","sonder­nutzungsplan","gestaltungsplan","baugesuch"],"title":"BZR Horw · Art. 50 Übergangsbestimmungen","legal_basis":"BZR Horw, Art. 50","checked_on":"2026-10-20","url":"https://www.horw.ch/_doc/6040330","excerpt":"Bei bestehenden Gestaltungs- oder Bebauungsplänen und älteren Verfahren ist das Übergangsrecht fallbezogen zu prüfen."},{"id":"pbg","municipality":"Kanton Luzern","topic":"Planungs- und Baugesetz","keywords":["pbg","fassadenhöhe","fassadenhoehe","baubewilligung","höhe","baurecht","attika","abstände","hindernisfrei","lift"],"title":"Planungs- und Baugesetz (SRL 735)","legal_basis":"PBG, insbesondere §§ 139 und 157 je nach Fragestellung","checked_on":"2026-10-20","url":"https://srl.lu.ch/app/de/texts_of_law/735","excerpt":"Kantonales Planungs- und Baugesetz; Höhendefinitionen und Anforderungen an hindernisfreies Bauen. Die aktuell geltende Fassung ist anhand der amtlichen Rechtssammlung zu prüfen."},{"id":"pbv","municipality":"Kanton Luzern","topic":"Planungs- und Bauverordnung","keywords":["pbv","baugesuch","unterlagen","energie","hindernisfrei","s ia","sia","lift","formular"],"title":"Planungs- und Bauverordnung (SRL 736)","legal_basis":"PBV, geltende Fassung","checked_on":"2026-10-20","url":"https://srl.lu.ch/app/de/texts_of_law/736","excerpt":"Kantonale Ausführungsbestimmungen zum PBG; relevant für Baugesuchsverfahren und Nachweise."},{"id":"ivhb","municipality":"Kanton Luzern","topic":"IVHB Inkrafttreten","keywords":["ivhb","umsetzung","emmen","horw","kriens","luzern","übergang","uebergang","baubegriffe"],"title":"SRL 736a · Gemeindeweises Inkrafttreten IVHB","legal_basis":"Regierungsratsbeschluss SRL 736a","checked_on":"2026-10-20","url":"https://srl.lu.ch/app/de/texts_of_law/736a","excerpt":"Für die Anwendung neuer Baubegriffe ist die Gemeinde und das Datum der gemeindeweisen Inkraftsetzung zu prüfen. Nicht allein aus einer Projektseite auf Rechtskraft schliessen."},{"id":"kriens-bzr","municipality":"Kriens","topic":"Bau- und Zonenordnung","keywords":["kriens","attika","attikageschoss","fassadenhöhe","bauvorschrift","bzr","baurecht","höhe"],"title":"Stadt Kriens · Bauvorschriften und Ortsplanung","legal_basis":"Kommunale Bauvorschriften / rechtsgültige BZR- und BZV-Fassung prüfen","checked_on":"2026-10-20","url":"https://www.stadt-kriens.ch/stadtbuero/dienstleistungen/bauvorschriften.page/492","excerpt":"Offizielle kommunale Bauvorschriften, Ortsplanung und Dokumentlinks. Für Attikageschosse ist die gültige Fassung und allfälliges Übergangsrecht abzuklären."},{"id":"luzern-nutzung","municipality":"Luzern","topic":"Nutzungsplanung und BZR/BZO","keywords":["luzern","attika","bzr","bzo","solarpflicht","neubau","zonenplan","nutzungsplanung"],"title":"Stadt Luzern · Nutzungsplanung und BZO","legal_basis":"Kommunale Nutzungsplanung (je Stadtteil relevant)","checked_on":"2026-10-20","url":"https://www.stadtluzern.ch/dienstleistungeninformation/459","excerpt":"Offizielle Übersicht der Nutzungsplanung und anwendbaren kommunalen Reglemente / Zonenpläne. Je nach Stadtteil unterschiedliche Grundlagen beachten."},{"id":"emmen-nutzung","municipality":"Emmen","topic":"Nutzungsplanung","keywords":["emmen","ivhb","bzr","zonenplan","ortsplanung","revision"],"title":"Gemeinde Emmen · Raum- und Nutzungsplanung","legal_basis":"Amtliche Nutzungsplanung / BZR","checked_on":"2026-10-20","url":"https://www.emmen.ch/raumundnutzungsplanung","excerpt":"Offizieller Einstieg zu BZR, Zonenplan und laufenden Nutzungsplanungsprojekten."},{"id":"horw-baugesuch","municipality":"Horw","topic":"Baugesuchsverfahren","keywords":["horw","baugesuch","baugesuchsunterlagen","einreichen","formular","baueingabe"],"title":"Gemeinde Horw · Bau und Umwelt","legal_basis":"Kommunale Verfahrensinformationen sowie PBG/PBV","checked_on":"2026-10-20","url":"https://www.horw.ch/gk-bauumweltverkehr/kapitel/56","excerpt":"Offizieller Einstieg zu kommunalen Bau- und Planungsunterlagen. Erforderliche Gesuchsbeilagen müssen für das konkrete Vorhaben geprüft werden."},{"id":"luzern-ebau","municipality":"Luzern","topic":"Digitales Baugesuch","keywords":["luzern","baugesuch","digital","egov","cymo","ebau","einreichen","login"],"title":"Stadt Luzern · Digitale Baugesuchseingabe","legal_basis":"Amtliche Stadtmitteilung zur digitalen Baugesuchseingabe","checked_on":"2026-10-20","url":"https://www.stadtluzern.ch/_doc/6436715","excerpt":"Offizielle Informationen zum digitalen Baugesuch. Verfahrensdetails und Zugang direkt bei der Stadt prüfen."},{"id":"solar-lu","municipality":"Kanton Luzern","topic":"Solarpflicht / Energie","keywords":["solar","solarpflicht","photovoltaik","pv","energie","neubau","sanierung","luzern","dach"],"title":"Kanton Luzern · Energiegesetzgebung kompakt","legal_basis":"Kantonales Energiegesetz und Energieverordnung","checked_on":"2026-10-20","url":"https://uwe.lu.ch/Energiegesetz/KEnG_kompakt","excerpt":"Amtliche Übersicht zu kantonalen Energieanforderungen einschliesslich Eigenstromerzeugung. Geltende Schwellen und Ausnahmen im Gesetz prüfen."},{"id":"barrier-lu","municipality":"Kanton Luzern","topic":"Hindernisfreies Bauen","keywords":["lift","hindernisfrei","behinderte","barrierefrei","sieben","7","wohnungen","mf h","mfh","mehrfamilienhaus","erschliessung","sia500"],"title":"PBG § 157 · Hindernisfreies Bauen","legal_basis":"PBG § 157 und PBV §§ 45, 59","checked_on":"2026-10-20","url":"https://srl.lu.ch/app/de/texts_of_law/735","excerpt":"Hindernisfreies Bauen bei öffentlich zugänglichen Bauten, Wohngebäuden und Arbeitsgebäuden. Aus der Wohnungsschwelle allein folgt ohne nähere Prüfung nicht automatisch eine bestimmte Liftlösung."}];
+  const form=document.getElementById('qa-form');
+  const input=document.getElementById('qa-input');
+  const result=document.getElementById('qa-result');
+  const status=document.getElementById('qa-status');
+  const answer=document.getElementById('qa-answer');
+  const links=document.getElementById('qa-sources');
+  const detail=document.getElementById('qa-detail');
+  const aiButton=document.getElementById('qa-ai-button');
+  const aiResponse=document.getElementById('qa-ai-response');
+  let currentQuestion='';
+  if(window.SHB_AI_ENDPOINT) aiButton.hidden=false;
+  const escape = s => String(s||'');
+  const norm = s => String(s||'').toLocaleLowerCase('de-CH').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,' ').trim();
+  const STOP=new Set(['wie','ist','sind','was','wo','welche','welchen','welcher','welches','einen','eine','einem','einer','ein','der','die','das','dem','den','und','oder','fur','bei','mit','zur','zum','von','im','in','ich','braucht','brauche','gilt','gelten','bereits','schon','hat','einer','werden','darf','man']);
+  const tokens = s => norm(s).split(/\s+/).filter(x=>x.length>2&&!STOP.has(x));
+  const locality = q => ['Horw','Luzern','Kriens','Emmen'].find(n=>tokens(q).includes(norm(n))) || null;
+  function find(q){
+    const terms=tokens(q);const town=locality(q);
+    return INDEX.map(r=>{
+      const title=tokens(r.title+' '+r.topic+' '+r.municipality);
+      const keys=tokens((r.keywords||[]).join(' ')); const excerpt=tokens(r.excerpt||'');
+      const matches=(arr,term)=>arr.some(w=>w===term||(term.length>4 && (w.startsWith(term)||term.startsWith(w))));
+      let score=0;let hits=0;
+      for(const t of terms){
+        const m=matches(title,t)?4:matches(keys,t)?3:matches(excerpt,t)?1:0;
+        if(m){score+=m;hits++;}
+      }
+      if(town && r.municipality===town)score+=5;
+      if(town && r.municipality!==town && r.municipality!=='Kanton Luzern')score-=8;
+      if(norm(q).includes('w2b') && r.id==='horw-w2b')score+=25;
+      if(norm(q).includes('ivhb') && r.id==='ivhb')score+=19;
+      if(/solar|photovoltaik|pv pflicht/.test(norm(q)) && r.id==='solar-lu')score+=18;
+      if(/lift|hindernisfrei/.test(norm(q)) && r.id==='barrier-lu')score+=18;
+      if(terms.length>2 && hits<2)score-=8;
+      return {r,score};
+    }).filter(x=>x.score>2).sort((a,b)=>b.score-a.score).slice(0,5).map(x=>x.r);
+  }
+  function setText(node,s){node.textContent=s;}
+  function renderLink(record){
+    const a=document.createElement('a');a.className='qa-source';a.href=record.url;a.target='_blank';a.rel='noopener noreferrer';
+    const title=document.createElement('strong');setText(title,record.title+' ↗');a.appendChild(title);
+    const sub=document.createElement('small');setText(sub,record.legal_basis||record.municipality);a.appendChild(sub);
+    return a;
+  }
+  function show(q){
+    currentQuestion=q; aiResponse.textContent='';
+    const sources=find(q);result.hidden=false;links.replaceChildren();sources.forEach(r=>links.appendChild(renderLink(r)));
+    const isHorwW2b = norm(q).includes('w2b') && /(fassaden|hohe|hoehe|wie hoch)/.test(norm(q)) && locality(q)==='Horw';
+    const verified=sources.find(r=>r.id==='horw-w2b');
+    if(isHorwW2b && verified){
+      setText(status,'QUELLENBASIERTE KURZAUSKUNFT · REDAKTIONELL GEPRÜFT');
+      setText(answer, verified.verified_answer);
+      setText(detail,'Rechtsgrundlage: '+verified.legal_basis+'. '+verified.source_status+'. Kein parzellenspezifischer Rechtsnachweis.');
+    }else if(sources.length){
+      setText(status,'AMTLICHE FUNDSTELLEN · DETAILAUSKUNFT NOCH NICHT VALIDiert'.toUpperCase());
+      setText(answer,'Für diese Frage liegt im lokalen Pilotindex noch keine gesicherte Einzelantwort vor. Öffne die amtlichen Fundstellen. Die spätere KI-Version soll genau diese Stellen auswerten und mit Artikelangabe belegen.');
+      setText(detail,'Keine automatische Auslegung, keine Aussage über Übergangsrecht, Inkrafttreten oder Bewilligungsfähigkeit.');
+    }else{
+      setText(status,'KEINE PASSENDE QUELLE IM PILOTINDEX');
+      setText(answer,'Noch keine passende amtliche Fundstelle erfasst. Versuche eine Gemeinde oder einen Fachbegriff hinzuzufügen.');
+      setText(detail,'Das bedeutet nicht, dass keine Vorschrift existiert.');
+    }
+    result.scrollIntoView({behavior:'smooth',block:'nearest'});
+  }
+  aiButton.addEventListener('click', async()=>{
+    if(!window.SHB_AI_ENDPOINT||!currentQuestion) return;
+    aiButton.disabled=true; aiResponse.textContent='KI wertet die erfassten Quellen aus …';
+    try{
+      const response=await fetch(window.SHB_AI_ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question:currentQuestion})});
+      const data=await response.json();
+      if(!response.ok) throw new Error(data.error||'Anfrage fehlgeschlagen');
+      aiResponse.textContent=(data.answer||'Keine gesicherte Antwort.')+'\n'+(data.notice||'');
+      if(Array.isArray(data.citations)){const seen=new Set(Array.from(links.querySelectorAll('a')).map(a=>a.href));for(const c of data.citations){if(!seen.has(c.url))links.appendChild(renderLink({title:c.title,url:c.url,legal_basis:c.article}));seen.add(c.url);}}
+    }catch(err){aiResponse.textContent='KI-Anfrage nicht möglich: '+err.message;}finally{aiButton.disabled=false;}
+  });
+  form.addEventListener('submit',e=>{e.preventDefault();const q=input.value.trim();if(q)show(q);});
+  document.querySelectorAll('[data-example]').forEach(b=>b.addEventListener('click',()=>{input.value=b.dataset.example;show(input.value);}));
+})();
 </script>
 </body></html>

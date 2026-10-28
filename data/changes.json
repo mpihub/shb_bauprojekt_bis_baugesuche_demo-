@@ -3,6 +3,24 @@
     {
       "source_id": "emmen-bzr",
       "municipality": "Emmen",
+      "detected_at": "2026-10-28T09:17:54+00:00",
+      "type": "check_failed",
+      "summary": "Quelle nicht zuverlässig prüfbar: <urlopen error timed out>",
+      "source_url": "https://www.emmen.ch/gesetzessammlung/sammlung/307864",
+      "requires_manual_review": true
+    },
+    {
+      "source_id": "luzern-nutzung",
+      "municipality": "Luzern",
+      "detected_at": "2026-10-28T09:17:19+00:00",
+      "type": "check_failed",
+      "summary": "Quelle nicht zuverlässig prüfbar: <urlopen error timed out>",
+      "source_url": "https://www.stadtluzern.ch/dienstleistungeninformation/459",
+      "requires_manual_review": true
+    },
+    {
+      "source_id": "emmen-bzr",
+      "municipality": "Emmen",
       "detected_at": "2026-10-28T05:48:55+00:00",
       "type": "content_changed",
       "summary": "Seiten- oder Dokumentinhalt verändert; fachlich prüfen.",
@@ -293,6 +311,6 @@
     }
   ],
   "meta": {
-    "last_updated_at": "2026-10-28T05:49:09+00:00"
+    "last_updated_at": "2026-10-28T09:18:18+00:00"
   }
 }

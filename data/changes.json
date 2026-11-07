@@ -3,6 +3,35 @@
     {
       "source_id": "emmen-bau",
       "municipality": "Emmen",
+      "detected_at": "2026-11-07T05:53:05+00:00",
+      "type": "content_changed",
+      "summary": "Seiten- oder Dokumentinhalt verändert; fachlich prüfen.",
+      "source_url": "https://www.emmen.ch/baugesuche",
+      "added_pdf_links": [],
+      "removed_pdf_links": [],
+      "requires_manual_review": true
+    },
+    {
+      "source_id": "kriens-revision",
+      "municipality": "Kriens",
+      "detected_at": "2026-11-07T05:52:38+00:00",
+      "type": "check_failed",
+      "summary": "Quelle nicht zuverlässig prüfbar: <urlopen error timed out>",
+      "source_url": "https://www.findetstadt.kriens.ch/ortsplanungsrevision/projekt.html/2239",
+      "requires_manual_review": true
+    },
+    {
+      "source_id": "kriens-bau",
+      "municipality": "Kriens",
+      "detected_at": "2026-11-07T05:52:19+00:00",
+      "type": "check_failed",
+      "summary": "Quelle nicht zuverlässig prüfbar: <urlopen error timed out>",
+      "source_url": "https://www.stadt-kriens.ch/stadtbuero/dienstleistungen/bauvorschriften.page/492",
+      "requires_manual_review": true
+    },
+    {
+      "source_id": "emmen-bau",
+      "municipality": "Emmen",
       "detected_at": "2026-11-06T06:03:59+00:00",
       "type": "check_failed",
       "summary": "Quelle nicht zuverlässig prüfbar: <urlopen error timed out>",
@@ -433,6 +462,6 @@
     }
   ],
   "meta": {
-    "last_updated_at": "2026-11-06T06:04:18+00:00"
+    "last_updated_at": "2026-11-07T05:53:08+00:00"
   }
 }

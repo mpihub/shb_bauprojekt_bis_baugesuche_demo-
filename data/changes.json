@@ -1,6 +1,15 @@
 {
   "changes": [
     {
+      "source_id": "emmen-bzr",
+      "municipality": "Emmen",
+      "detected_at": "2026-11-11T12:41:49+00:00",
+      "type": "check_failed",
+      "summary": "Quelle nicht zuverlässig prüfbar: <urlopen error timed out>",
+      "source_url": "https://www.emmen.ch/gesetzessammlung/sammlung/307864",
+      "requires_manual_review": true
+    },
+    {
       "source_id": "kriens-bau",
       "municipality": "Kriens",
       "detected_at": "2026-11-10T05:58:02+00:00",
@@ -504,6 +513,6 @@
     }
   ],
   "meta": {
-    "last_updated_at": "2026-11-10T05:58:10+00:00"
+    "last_updated_at": "2026-11-11T12:42:16+00:00"
   }
 }
